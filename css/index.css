@@ -1,0 +1,169 @@
+#h1fonts {
+    font-family: 'Monoton', cursive;
+    color: #D9FDCE;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#navbar {
+    font-family: 'Bungee Shade', cursive;
+    background-color: #1C5A09;
+    color: #D9FDCE;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+
+.nav-link {
+    color: #D9FDCE;
+}
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Ranchers', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Slackey', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'Monoton', cursive; */
+
+body {
+    margin: 0px; outline: none;
+}
+
+nav {
+    height: 50px
+}
+
+#upperDiv {
+    background-color: #1C5A09;
+    margin: 0px;
+    height: 800px;
+    display: inline-block;
+}
+
+#aboutMeDiv {
+    background-color: #D9FDCE;
+    color: #1C5A09;
+    height: 500px;
+    margin: 100px;
+}
+
+.divText {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#meSelfy {
+    height: 350px;
+    width: 250px;
+    float: right;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+#contactDiv {
+    background-color: #D9FDCE;
+    color: #1C5A09;
+    height: 500px;
+    margin: 40px;
+}
+
+#meDivWrap {
+    background-color: #D9FDCE;
+    height: 600px;
+    margin: 0px;
+    outline: none;
+}
+
+#aboutMeDiv {
+    margin: 20px;
+}
+
+#meTextDiv {
+    margin: 40px;
+}
+
+#portDivWrap {
+    background-color: #1C5A09;
+}
+
+#portfolioDiv {
+    background-color: #1C5A09;
+    color: #D9FDCE;
+    height: 600px;
+    margin: 40px;
+}
+
+#contactDivWrap {
+    background-color: #D9fdce;
+    height: 600px;
+    margin: 0px;
+}
+
+footer {
+    height: 125px;
+    background-color: #1C5A09;
+}
+
+#github {
+   
+    color: #D9FDCE;
+    /* float: right; */
+    margin: 10px;
+    
+}
+
+#linkedin {
+    color: #D9FDCE;
+    /* float: right; */
+    margin: 10px;
+}
+
+#instagram {
+    color: #D9FDCE;
+    /* float: right; */
+    margin: 10px;
+}
+
+#socialLinks {
+    text-align: center;
+}
+
+#greaterthan {
+    color: #D9FDCE;
+    /* float: right; */
+    margin: 10px;
+}
+
+#lessthan {
+    color: #D9FDCE;
+    /* float: right; */
+    margin: 10px;
+}
+
+#github:hover {
+    color: rgb(241, 185, 175);
+}
+
+#linkedin:hover {
+    color: #96D1F9;
+}
+
+#instagram:hover {
+    color: #F9F996;
+}
+
+#home:hover {
+    color: #F7F709;
+}
+
+#about:hover {
+    color: #FEAF25;
+}
+
+#portfolio:hover {
+    color: #FE255F;
+}
+
+#contact:hover {
+    color: #62FA34;
+}
