@@ -9,21 +9,20 @@
         <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Henny+Penny|Modak|Monoton|Orbitron|Ranchers|Slackey" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
         
-        
     </head>
     <body>
             <ul class="nav justify-content-end" id="navbar">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#" id="home">Home</a>
+                      <a class="nav-link active" onclick="homeTop('upperDiv'); return false;" href="#" id="home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" id="about">About</a>
+                      <a class="nav-link" onclick="initScroll('meDivWrap'); return false;" href="#name_of_target" id="about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" id="portfolio">Portfolio</a>
+                      <a class="nav-link" onclick="initScroll('portfolioDiv'); return false;" href="#name_of_target02" id="portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#" id="contact">Contact</a>
+                      <a class="nav-link " onclick="initScroll('contactDiv'); return false;" href="#name_of_target03" id="contact">Contact</a>
                     </li>
                   </ul>
            <div id='upperDiv'>
@@ -32,11 +31,12 @@
         <div id='meDivWrap'>
             <br>
            <div class='divText' id='aboutMeDiv'>
-                <h3>About Me</h3>
+               <br>
+                <a name="name_of_target"></a><h2>About Me</h2></a>
                 <br>
                 <div class='divText' id='meTextDiv'>
                    
-                        <img src='images/IMG_1129.jpg' id='meSelfy' >
+                        <img src='images/IMG_1129.jpg' id='meSelfy'>
                         <br>
                         <div id='textAboutMe'>
                             <p>Learning to code has been one of the most 
@@ -55,10 +55,6 @@
                                 to impliment these new skills on a full-time basis.  
                             </p>
                         </div>
-                <!-- <p>Excited to embark on the never ending journey of learning code.</p>  <p>I don't really have a background in sofware development. 
-                    but I do have a pretty good <p>sense of creativity and ability to adapt and learn quickly.</p>  
-                    <p>Hoping this will give me slightly different perspective from the average programmer.</p> -->
-                    <!-- <p>Didn't think I could ever learn how to do this, </p> -->
                 </div>
             </div>
         </div>
@@ -66,14 +62,41 @@
         <div id='portDivWrap'>
             <br>
             <div class='divText' id='portfolioDiv'>
-             <h3>Portfolio</h3>
+             <a name='name_of_target02'><h2>Portfolio</h2></a>
+             <br>
+             <a href='https://github.com/BenShigeruClark/figgit' target='_blank' class='imglink' id='figlink'>
+             <img src='images/figgit.jpg' id='figgit'>
+             </a>
+             <a href='https://warm-oasis-23319.herokuapp.com/' target='_blank' class='imglink'>
+             <img src='images/root.jpg' id='root'>
+            </a>
+            <a href='https://github.com/BenShigeruClark/CaritasBridge' target='_blank' class='imglink'>
+             <img src='images/CaritasBridge.jpg' id='caritas'>
+            </a>
             </div>
             <br>
         </div>
         <div id='contactDivWrap'>
             <br>
             <div class='divText' id='contactDiv'>
-                <h3>Contact</h3>
+                
+                <a name='name_of_target03'><h2>Contact</h2></a>
+                <br>
+                <div id='contactInfo'>
+                    <ul>
+                        <i class="fas fa-location-arrow fa-3x" id='arrow'>
+                            <h6 class="contactText">Orange and Los Angeles Counties</h6>
+                        </i>
+                        
+                        <i class="fas fa-envelope-square fa-3x" id='envelope'>
+                            <h6 class="contactText">benclarkphoto@mac.com</h6>
+                        </i>
+                      
+                        <i class="fas fa-phone-square fa-3x" id='phone'>
+                            <h6 class="contactText">310.707.7111</h6>
+                        </i>
+                    </ul>
+                </div>
             </div>
         </div>   
         <footer id='footer'>
@@ -93,11 +116,11 @@
                 <i class="fas fa-greater-than fa-3x" id='greaterthan'></i>
                               
             </ul>
-                <!-- <i class="fab fa-github"></i> -->
         </footer>
            
-       
-
+        
+    
         
     </body>
+    <script type="text/javascript" src="js/script.js"></script>
 </html>
