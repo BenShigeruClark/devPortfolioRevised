@@ -16,6 +16,7 @@
     top: 0;
     left: 0;
     z-index: 9999;
+    opacity: 0.85;
 }
 
 .nav-link {
@@ -95,7 +96,7 @@ nav {
 #portfolioDiv {
     background-color: #1C5A09;
     color: #D9FDCE;
-    height: 900px;
+    height: 950px;
     margin: 50px;
     padding-top: 20px;
 }
